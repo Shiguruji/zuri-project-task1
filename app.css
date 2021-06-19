@@ -141,13 +141,13 @@ text-decoration: none;
 @media screen and (max-width:600px) {
   img {
     left: 29%;
-    top: 3rem;
+    top: 2.5rem;
   }
 
   form {
     width: 92vw;
     left: 1.1rem;
-    top: 10rem;
+    top: 7.5rem;
   }
 
   h3 {
