@@ -87,7 +87,7 @@ input#password {
   color: #040b5280;
 }
 
-p {
+#f-password {
   position: absolute;
   height: 1.0625rem;
   left: 59.4%;
@@ -97,9 +97,10 @@ p {
   line-height: 1.0625rem;
   color: #ff000f99;
   width: 7.4375rem;
+  text-decoration: none;
 }
 
-p:hover {
+#f-password:hover {
     cursor: pointer;
 }
 
@@ -121,7 +122,7 @@ div.button:hover {
   cursor: pointer;
 }
 
-a {
+#sign-up {
 position: absolute;
 left: 45.3%;
 bottom: 12.77%;
@@ -130,4 +131,8 @@ font-size: 0.875rem;
 line-height: 1.1875rem;
 color: #0B1DD5;
 text-decoration: none;
+}
+
+#sign-up:hover {
+  cursor: pointer;
 }
