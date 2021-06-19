@@ -1,0 +1,133 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Inter, sans-serif;
+}
+
+body {
+  background: #040b52;
+}
+
+img {
+  position: absolute;
+  height: 2.9575rem;
+  width: 9.6875rem;
+  left: 37.5rem;
+  top: 3.5rem;
+}
+
+form {
+  position: absolute;
+  height: 26.4375rem;
+  width: 27.9375rem;
+  left: 29.0625rem;
+  top: 11rem;
+  border-radius: 4px;
+  background: #fff;
+}
+
+h3 {
+  position: absolute;
+  height: 1.8125rem;
+  width: 4.428125rem;
+  left: 3.991875rem;
+  top: 2rem;
+  font-size: 1.4625rem;
+  font-weight: 700;
+  line-height: 1.8125rem;
+  letter-spacing: 0;
+  text-align: left;
+  color: #040b52;
+}
+
+label {
+  position: absolute;
+  height: 1.0625rem;
+  left: 3.991875rem;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.0625rem;
+  letter-spacing: 0;
+  text-align: left;
+  color: #040b52cc;
+}
+
+label.email {
+  width: 2.245rem;
+  top: 6.3125rem;
+}
+
+label.password {
+  width: 4.11625rem;
+  top: 11.875rem;
+}
+
+input {
+  position: absolute;
+  height: 2.5rem;
+  width: 18.625rem;
+  left: 4rem;
+  border-radius: 4px;
+  border: 1px solid #dddde3;
+}
+
+input#email {
+  top: 7.875rem;
+}
+
+input#password {
+  top: 13.4375rem;
+}
+
+.fa-eye-slash {
+  position: absolute;
+  left: 70.33%;
+  top: 53.9%;
+  color: #040b5280;
+}
+
+p {
+  position: absolute;
+  height: 1.0625rem;
+  left: 56%;
+  top: 16.55rem;
+  font-weight: 400;
+  font-size: 0.675rem;
+  line-height: 1.0625rem;
+  color: #ff000f99;
+  width: 7.4375rem;
+}
+
+p:hover {
+    cursor: pointer;
+}
+
+div.button {
+  position: absolute;
+  height: 2.9375rem;
+  width: 7.13rem;
+  text-align: center;
+  padding-top: 13px;
+  font-weight: 600;
+  left: 14.29%;
+  bottom: 9.46%;
+  color: #fff;
+  background: #0b1dd5;
+  border-radius: 4px;
+}
+
+div.button:hover {
+  cursor: pointer;
+}
+
+a {
+position: absolute;
+left: 45.3%;
+bottom: 12.77%;
+font-weight: 400;
+font-size: 0.875rem;
+line-height: 1.1875rem;
+color: #0B1DD5;
+text-decoration: none;
+}
