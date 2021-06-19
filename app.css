@@ -136,3 +136,52 @@ text-decoration: none;
 #sign-up:hover {
   cursor: pointer;
 }
+
+
+@media screen and (max-width:600px) {
+  img {
+    left: 29%;
+    top: 3rem;
+  }
+
+  form {
+    width: 92vw;
+    left: 1.1rem;
+    top: 10rem;
+  }
+
+  h3 {
+    width: 4.428125rem;
+    left: 1.991875rem;
+    top: 2rem;
+  }
+  
+  label {
+    left: 1.991875rem;
+  }
+
+  input {
+    position: absolute;
+    height: 2.5rem;
+    width: 72vw;
+    left: 2rem;
+  }
+
+  .fa-eye-slash {
+    left: 79.33%;
+  }
+
+  #f-password {
+    left: 62.2%;
+  }
+
+  div.button {
+    left: 2rem;
+  }
+
+  #sign-up {
+  left: 45.3%;
+  bottom: 12.77%;
+  }
+
+}
